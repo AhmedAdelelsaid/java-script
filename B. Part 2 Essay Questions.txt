@@ -1,0 +1,34 @@
+Q1 - What is the difference between forEach and for...of? When would you use each?
+
+forEach is for arrays only. It goes on all the items one by one.
+for...of also goes on all the items but it is a normal loop.
+The difference is for...of we can stop it with break and we can skip with continue.
+forEach we cannot stop it easy.
+I use forEach when I want to do something for all items.
+I use for...of when I want to stop or skip.
+
+Q2 - What is hoisting and what is the Temporal Dead Zone (TDZ)? Explain with examples.
+
+Hoisting means JavaScript takes the var up before it runs the code.
+So if we write console.log(x) before var x = 5 it will not give error, it will give undefined.
+let and const are different. We cannot use them before we write them.
+The time before we write let is called Temporal Dead Zone.
+If we try to use it there it will give error.
+
+Q3 - What are the main differences between == and === ?
+
+== checks the value only. It changes the type if it needs.
+=== checks the value and the type together.
+
+Q4 - Explain how try-catch works and why it is used in async operations.
+
+try-catch is for errors. We put the code in try. If there is an error it goes to catch and the program does not stop.
+In async operations like fetch the internet can fail, so we need try-catch to catch the error.
+
+Q5 - What is the difference between type conversion and coercion? Provide examples of each.
+
+Type conversion is when we change the type by ourselves.
+Coercion is when JavaScript changes the type by itself without us.
+
+
+
